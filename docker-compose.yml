@@ -1,35 +1,39 @@
-version: '3.9'
+version: '2'
 
-services:
-
-  mariadb:
-    image: mariadb
-    container_name: prestashop-db
-    environment:
-      - MYSQL_DATABASE=prestashop
-      - MYSQL_ROOT_PASSWORD=prestashop
-    networks:
-      - prestashop
-
+services: 
   prestashop:
-    image: prestashop/prestashop:1.7
-    container_name: prestashop
+    container_name: sbmstore
+    image: michalbaldyga/sbmrepo:1.2
+    ports:
+      - 80:80
+      - 443:443
     depends_on:
       - mariadb
     environment:
+      - PS_DEV_MODE=1
       - DB_SERVER=mariadb
       - DB_USER=root
-      - DB_PASSWD=prestashop
-    ports:
-      - 8080:80
-      - 443:443
-    volumes:
-      - ./src:/var/www/html
-      - ./src/modules:/var/www/html/modules
-      - ./src/themes:/var/www/html/themes
-      - ./src/override:/var/www/html/override
-    networks:
-      - prestashop
+      - DB_NAME=prestashop
+      - PS_INSTALL_AUTO=0
+      - PS_FOLDER_ADMIN=sbmadmin
+      - PS_ENABLE_SSL=0
 
-networks:
-  prestashop:
+  mariadb:
+    container_name: sbmstore-db
+    image: mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=prestashop
+
+  phpmyadmin:
+    container_name: db-admin
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mariadb
+    ports: 
+      - 81:80 
+    environment:
+      - PMA_HOST=mariadb
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+      
