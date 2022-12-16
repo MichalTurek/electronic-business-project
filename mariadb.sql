@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: mariadb
--- Czas generowania: 16 Gru 2022, 16:24
+-- Czas generowania: 16 Gru 2022, 16:48
 -- Wersja serwera: 10.10.2-MariaDB-1:10.10.2+maria~ubu2204
 -- Wersja PHP: 8.0.19
 
@@ -1097,7 +1097,10 @@ INSERT INTO `ps_admin_filter` (`id`, `employee`, `shop`, `controller`, `action`,
 (4, 1, 1, '', '', '{\"limit\":10,\"orderBy\":\"id_profile\",\"sortOrder\":\"asc\",\"filters\":[]}', 'profile'),
 (5, 1, 1, '', '', '{\"limit\":10,\"orderBy\":\"id_contact\",\"sortOrder\":\"asc\",\"filters\":[]}', 'contact'),
 (6, 1, 1, '', '', '{\"limit\":50,\"orderBy\":\"id_meta\",\"sortOrder\":\"asc\",\"filters\":[]}', 'meta'),
-(7, 1, 1, '', '', '{\"orderBy\":\"position\",\"sortOrder\":\"asc\",\"limit\":50,\"filters\":{\"id_category_parent\":2}}', 'category');
+(7, 1, 1, '', '', '{\"orderBy\":\"position\",\"sortOrder\":\"asc\",\"limit\":50,\"filters\":{\"id_category_parent\":2}}', 'category'),
+(8, 1, 1, '', '', '{\"limit\":50,\"orderBy\":\"id_webservice_account\",\"sortOrder\":\"asc\",\"filters\":[]}', 'webservice_key'),
+(9, 1, 1, '', '', '{\"limit\":10,\"orderBy\":\"id_log\",\"sortOrder\":\"desc\",\"filters\":[]}', 'logs'),
+(10, 1, 1, '', '', '{\"limit\":10,\"orderBy\":\"id_request_sql\",\"sortOrder\":\"desc\",\"filters\":[]}', 'sql_request');
 
 -- --------------------------------------------------------
 
@@ -3539,7 +3542,8 @@ INSERT INTO `ps_connections` (`id_connections`, `id_shop_group`, `id_shop`, `id_
 (51, 1, 1, 48, 1, 2130706433, '2022-12-14 20:39:23', ''),
 (52, 1, 1, 49, 1, 2130706433, '2022-12-14 20:39:23', ''),
 (53, 1, 1, 50, 1, 2130706433, '2022-12-14 20:39:23', ''),
-(54, 1, 1, 51, 1, 2130706433, '2022-12-14 20:39:23', '');
+(54, 1, 1, 51, 1, 2130706433, '2022-12-14 20:39:23', ''),
+(55, 1, 1, 52, 2, 2886926337, '2022-12-16 17:32:54', '');
 
 -- --------------------------------------------------------
 
@@ -3628,7 +3632,9 @@ INSERT INTO `ps_connections_source` (`id_connections_source`, `id_connections`, 
 (52, 51, '', 'localhost/img/p/Ten%20Typ%20Mes%20-%20Alkopoligamia%3A%20Zapiski%20Typa%20%282CD%29.jpg', '', '2022-12-14 20:39:23'),
 (53, 52, '', 'localhost/img/p/Ten%20Typ%20Mes%20-%20A%C2%B3a.jpg', '', '2022-12-14 20:39:23'),
 (54, 53, '', 'localhost/img/p/Ten%20Typ%20Mes%20-%20Zamach%20na%20przeci%C3%AAtno%C2%9C%C3%A6.jpg', '', '2022-12-14 20:39:23'),
-(55, 54, '', 'localhost/img/p/White%202115%20-%20M%C2%B3ody%20Ksi%C2%B9%C2%BF%C3%AA.jpg', '', '2022-12-14 20:39:23');
+(55, 54, '', 'localhost/img/p/White%202115%20-%20M%C2%B3ody%20Ksi%C2%B9%C2%BF%C3%AA.jpg', '', '2022-12-14 20:39:23'),
+(56, 55, '', 'localhost/', '', '2022-12-16 17:32:54'),
+(57, 55, '', 'localhost/3-clothes', '', '2022-12-16 17:44:18');
 
 -- --------------------------------------------------------
 
@@ -4856,7 +4862,7 @@ CREATE TABLE `ps_employee` (
 --
 
 INSERT INTO `ps_employee` (`id_employee`, `id_profile`, `id_lang`, `lastname`, `firstname`, `email`, `passwd`, `last_passwd_gen`, `stats_date_from`, `stats_date_to`, `stats_compare_from`, `stats_compare_to`, `stats_compare_option`, `preselect_date_range`, `bo_color`, `bo_theme`, `bo_css`, `default_tab`, `bo_width`, `bo_menu`, `active`, `optin`, `id_last_order`, `id_last_customer_message`, `id_last_customer`, `last_connection_date`, `reset_password_token`, `reset_password_validity`, `has_enabled_gravatar`) VALUES
-(1, 1, 1, 'Bałdyga', 'Michał', 'michal.baldyga01@gmail.com', '$2y$10$gTfrjGrl2mW6PPMy7uTgr.kPYreULyIj/V57LFwca5FkDtYl2hksG', '2022-12-03 03:04:45', '2022-11-03', '2022-12-03', '0000-00-00', '0000-00-00', 1, NULL, NULL, 'default', 'theme.css', 1, 0, 1, 1, NULL, 5, 0, 0, '2022-12-16', NULL, '0000-00-00 00:00:00', 0);
+(1, 1, 1, 'Bałdyga', 'Michał', 'biznes@gmail.com', '$2y$10$1BdFUtQItYtTFho3jEJoDucuAnLQiEByhpt0p0WfQjcH8h4guX6dO', '2022-12-03 03:04:45', '2022-11-03', '2022-12-03', '0000-00-00', '0000-00-00', 1, '', '', 'default', 'theme.css', 1, 0, 1, 1, NULL, 5, 0, 2, '2022-12-16', '', '0000-00-00 00:00:00', 0);
 
 -- --------------------------------------------------------
 
@@ -4880,7 +4886,7 @@ INSERT INTO `ps_employee_session` (`id_employee_session`, `id_employee`, `token`
 (2, 1, '0a695c903dbda64ac9cce3e73835be19dbba9cbd', '2022-12-03 09:51:05', '2022-12-03 10:49:48'),
 (3, 1, '49fbe297d1c1e8abc3458b13561f39f647e3a111', '2022-12-14 16:29:22', '2022-12-14 19:09:21'),
 (4, 1, 'bf24c841465808290cf8fe1f2ca0d73c9ee3822d', '2022-12-14 19:19:03', '2022-12-14 20:59:48'),
-(5, 1, '2f7ae83c2b3eb178d077630bbd6898a2f67d5cd9', '2022-12-16 17:23:32', '2022-12-16 17:24:05');
+(7, 1, 'd4a40c9d36a386a7affcdd361da4d9a2eaa73a2e', '2022-12-16 17:48:01', '2022-12-16 17:48:01');
 
 -- --------------------------------------------------------
 
@@ -5287,7 +5293,8 @@ INSERT INTO `ps_guest` (`id_guest`, `id_operating_system`, `id_web_browser`, `id
 (48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0),
 (49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0),
 (50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0),
-(51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0);
+(51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0),
+(52, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'pl', 0);
 
 -- --------------------------------------------------------
 
@@ -7185,6 +7192,13 @@ CREATE TABLE `ps_layered_filter_block` (
   `data` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
 
+--
+-- Zrzut danych tabeli `ps_layered_filter_block`
+--
+
+INSERT INTO `ps_layered_filter_block` (`hash`, `data`) VALUES
+('99a8b59891d6832eefba67582517293d', 'a:1:{s:7:\"filters\";a:6:{i:0;a:7:{s:9:\"type_lite\";s:8:\"category\";s:4:\"type\";s:8:\"category\";s:6:\"id_key\";i:0;s:4:\"name\";s:9:\"Kategorie\";s:6:\"values\";a:0:{}s:17:\"filter_show_limit\";i:0;s:11:\"filter_type\";i:0;}i:1;a:7:{s:9:\"type_lite\";s:8:\"quantity\";s:4:\"type\";s:8:\"quantity\";s:6:\"id_key\";i:0;s:4:\"name\";s:13:\"Dostępność\";s:6:\"values\";a:3:{i:0;a:2:{s:4:\"name\";s:12:\"Niedostępne\";s:3:\"nbr\";i:0;}i:1;a:2:{s:4:\"name\";s:9:\"Dostępny\";s:3:\"nbr\";i:0;}i:2;a:2:{s:4:\"name\";s:11:\"W magazynie\";s:3:\"nbr\";i:0;}}s:17:\"filter_show_limit\";i:0;s:11:\"filter_type\";i:0;}i:2;a:7:{s:9:\"type_lite\";s:12:\"manufacturer\";s:4:\"type\";s:12:\"manufacturer\";s:6:\"id_key\";i:0;s:4:\"name\";s:5:\"Marka\";s:6:\"values\";a:0:{}s:17:\"filter_show_limit\";i:0;s:11:\"filter_type\";i:0;}i:3;a:7:{s:9:\"type_lite\";s:9:\"condition\";s:4:\"type\";s:9:\"condition\";s:6:\"id_key\";i:0;s:4:\"name\";s:5:\"Stan:\";s:6:\"values\";a:3:{s:3:\"new\";a:2:{s:4:\"name\";s:4:\"Nowy\";s:3:\"nbr\";i:0;}s:4:\"used\";a:2:{s:4:\"name\";s:8:\"Używane\";s:3:\"nbr\";i:0;}s:11:\"refurbished\";a:2:{s:4:\"name\";s:9:\"Odnowione\";s:3:\"nbr\";i:0;}}s:17:\"filter_show_limit\";i:0;s:11:\"filter_type\";i:0;}i:4;a:0:{}i:5;a:12:{s:9:\"type_lite\";s:5:\"price\";s:4:\"type\";s:5:\"price\";s:6:\"id_key\";i:0;s:4:\"name\";s:4:\"Cena\";s:3:\"max\";d:0;s:3:\"min\";d:0;s:4:\"unit\";s:3:\"zł\";s:14:\"specifications\";a:11:{s:6:\"symbol\";a:11:{i:0;s:1:\",\";i:1;s:2:\" \";i:2;s:1:\";\";i:3;s:1:\"%\";i:4;s:1:\"-\";i:5;s:1:\"+\";i:6;s:1:\"E\";i:7;s:2:\"×\";i:8;s:3:\"‰\";i:9;s:3:\"∞\";i:10;s:3:\"NaN\";}s:12:\"currencyCode\";s:3:\"PLN\";s:14:\"currencySymbol\";s:3:\"zł\";s:13:\"numberSymbols\";a:11:{i:0;s:1:\",\";i:1;s:2:\" \";i:2;s:1:\";\";i:3;s:1:\"%\";i:4;s:1:\"-\";i:5;s:1:\"+\";i:6;s:1:\"E\";i:7;s:2:\"×\";i:8;s:3:\"‰\";i:9;s:3:\"∞\";i:10;s:3:\"NaN\";}s:15:\"positivePattern\";s:12:\"#,##0.00 ¤\";s:15:\"negativePattern\";s:13:\"-#,##0.00 ¤\";s:17:\"maxFractionDigits\";i:2;s:17:\"minFractionDigits\";i:2;s:12:\"groupingUsed\";b:1;s:16:\"primaryGroupSize\";i:3;s:18:\"secondaryGroupSize\";i:3;}s:17:\"filter_show_limit\";i:0;s:11:\"filter_type\";i:3;s:3:\"nbr\";i:0;s:5:\"value\";N;}}}');
+
 -- --------------------------------------------------------
 
 --
@@ -8067,7 +8081,9 @@ INSERT INTO `ps_log` (`id_log`, `severity`, `error_code`, `message`, `object_typ
 (276, 1, 0, 'import Produkty (od 62 do 51) z zaokrągleniem', 'Produkty', 0, 1, NULL, 1, 0, 1, '2022-12-14 20:54:45', '2022-12-14 20:54:45'),
 (277, 1, 0, 'import Produkty (od 0 do 5) z zaokrągleniem', 'Produkty', 0, 1, NULL, 1, 0, 1, '2022-12-14 20:54:46', '2022-12-14 20:54:46'),
 (278, 3, 0, 'Swift Error: Expected response code 220 but got an empty response', 'SwiftMessage', 0, 1, NULL, 1, 0, 1, '2022-12-14 20:54:46', '2022-12-14 20:54:46'),
-(279, 1, 0, 'Połączenie z panelem administracyjnym z 172.24.0.1', '', 0, NULL, NULL, 1, 1, 1, '2022-12-16 17:23:32', '2022-12-16 17:23:32');
+(279, 1, 0, 'Połączenie z panelem administracyjnym z 172.24.0.1', '', 0, NULL, NULL, 1, 1, 1, '2022-12-16 17:23:32', '2022-12-16 17:23:32'),
+(280, 1, 0, 'Połączenie z panelem administracyjnym z 172.19.0.1', '', 0, NULL, NULL, 1, 1, 1, '2022-12-16 17:33:26', '2022-12-16 17:33:26'),
+(281, 1, 0, 'Połączenie z panelem administracyjnym z 172.19.0.1', '', 0, NULL, NULL, 1, 1, 1, '2022-12-16 17:48:01', '2022-12-16 17:48:01');
 
 -- --------------------------------------------------------
 
@@ -9803,7 +9819,20 @@ INSERT INTO `ps_pagenotfound` (`id_pagenotfound`, `id_shop`, `id_shop_group`, `r
 (117, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/shop/preferences/preferences?_token=T6jPwoDhNOKTaQWCRPwklSDMR6uGmNy_sHuwplInKcc', '2022-12-16 16:23:38'),
 (118, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/shop/preferences/preferences?_token=T6jPwoDhNOKTaQWCRPwklSDMR6uGmNy_sHuwplInKcc', '2022-12-16 16:23:43'),
 (119, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/shop/preferences/preferences?_token=T6jPwoDhNOKTaQWCRPwklSDMR6uGmNy_sHuwplInKcc', '2022-12-16 16:23:59'),
-(120, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/shop/preferences/preferences?_token=T6jPwoDhNOKTaQWCRPwklSDMR6uGmNy_sHuwplInKcc', '2022-12-16 16:24:05');
+(120, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/shop/preferences/preferences?_token=T6jPwoDhNOKTaQWCRPwklSDMR6uGmNy_sHuwplInKcc', '2022-12-16 16:24:05'),
+(121, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/shop/preferences/preferences?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:33:33'),
+(122, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/emails/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:44:56'),
+(123, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/administration/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:44:59'),
+(124, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/security/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:45:04'),
+(125, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/feature-flags/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:45:07'),
+(126, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/webservice-keys/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:45:10'),
+(127, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/logs/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:45:13'),
+(128, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/sql-requests/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:45:24'),
+(129, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/employees/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:45:27'),
+(130, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/employees/1/edit?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:45:38'),
+(131, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/employees/1/edit?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:46:40'),
+(132, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/employees/1/edit?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:47:17'),
+(133, 1, 1, '/sbmadmin/themes/new-theme/public/index.php?controller=AdminDashboard&token=60eac5dab3ea9b58dce2344e46410fbd', 'https://localhost/sbmadmin/index.php/configure/advanced/profiles/?_token=gH7l2kIM0FEcNhw31hsXnwbRJ_QMeHcsFjJFMB95bJo', '2022-12-16 16:47:51');
 
 -- --------------------------------------------------------
 
@@ -16452,7 +16481,7 @@ ALTER TABLE `ps_address`
 -- AUTO_INCREMENT dla tabeli `ps_admin_filter`
 --
 ALTER TABLE `ps_admin_filter`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_alias`
@@ -16572,13 +16601,13 @@ ALTER TABLE `ps_configuration_kpi`
 -- AUTO_INCREMENT dla tabeli `ps_connections`
 --
 ALTER TABLE `ps_connections`
-  MODIFY `id_connections` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
+  MODIFY `id_connections` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_connections_source`
 --
 ALTER TABLE `ps_connections_source`
-  MODIFY `id_connections_source` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `id_connections_source` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_contact`
@@ -16662,7 +16691,7 @@ ALTER TABLE `ps_employee`
 -- AUTO_INCREMENT dla tabeli `ps_employee_session`
 --
 ALTER TABLE `ps_employee_session`
-  MODIFY `id_employee_session` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_employee_session` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_feature`
@@ -16710,7 +16739,7 @@ ALTER TABLE `ps_group_reduction`
 -- AUTO_INCREMENT dla tabeli `ps_guest`
 --
 ALTER TABLE `ps_guest`
-  MODIFY `id_guest` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `id_guest` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_homeslider`
@@ -16806,7 +16835,7 @@ ALTER TABLE `ps_link_block_shop`
 -- AUTO_INCREMENT dla tabeli `ps_log`
 --
 ALTER TABLE `ps_log`
-  MODIFY `id_log` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=280;
+  MODIFY `id_log` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=282;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_mail`
@@ -16944,7 +16973,7 @@ ALTER TABLE `ps_page`
 -- AUTO_INCREMENT dla tabeli `ps_pagenotfound`
 --
 ALTER TABLE `ps_pagenotfound`
-  MODIFY `id_pagenotfound` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=121;
+  MODIFY `id_pagenotfound` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=134;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_page_type`
