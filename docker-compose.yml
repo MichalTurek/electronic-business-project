@@ -3,7 +3,7 @@ version: '2'
 services: 
   prestashop:
     container_name: sbmstore
-    image: michalbaldyga/sbmrepo:1.2
+    image: michalbaldyga/sbmrepo:1.15
     ports:
       - 80:80
       - 443:443
@@ -16,11 +16,11 @@ services:
       - DB_NAME=prestashop
       - PS_INSTALL_AUTO=0
       - PS_FOLDER_ADMIN=sbmadmin
-      - PS_ENABLE_SSL=0
+      - PS_ENABLE_SSL=1
 
   mariadb:
     container_name: sbmstore-db
-    image: mariadb
+    image: michalbaldyga/sbmdb:1.0
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=prestashop
@@ -36,4 +36,3 @@ services:
       - PMA_HOST=mariadb
       - PMA_USER=root
       - PMA_PASSWORD=root
-      
