@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Witaj,
+
+{product} jest teraz dostępny.
+
+Dobra wiadomość, ten produkt jest ponownie dostępny!
+
+Kliknij następujący link, aby odwiedzić stronę produktu i zamówić: [{product}]({product_link})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

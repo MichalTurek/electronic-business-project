@@ -1,0 +1,3 @@
+<?php //PrestaShopBundle%255CController%255CAdmin%255CProductImageController%2523uploadImageAction
+
+return [PHP_INT_MAX, []];

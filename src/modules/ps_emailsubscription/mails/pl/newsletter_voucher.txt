@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Witaj,
+
+Zapisz się do newslettera
+
+Dziękujemy za subskrypcję naszego newslettera. Z przyjemnością oferujemy następujący kupon: {discount}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

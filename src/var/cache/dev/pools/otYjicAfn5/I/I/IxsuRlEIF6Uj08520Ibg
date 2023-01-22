@@ -1,0 +1,26 @@
+<?php //PrestaShopBundle%255CController%255CAdmin%255CProductController%2523catalogAction
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['PrestaShopBundle\\Security\\Annotation\\AdminSecurity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('PrestaShopBundle\\Security\\Annotation\\AdminSecurity')),
+        clone ($p['Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template')),
+    ],
+    null,
+    [
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Security' => [
+            'expression' => [
+                'is_granted(\'create\', request.get(\'_legacy_controller\')) || is_granted(\'update\', request.get(\'_legacy_controller\')) || is_granted(\'read\', request.get(\'_legacy_controller\'))',
+            ],
+        ],
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template' => [
+            'template' => [
+                1 => '@PrestaShop/Admin/Product/CatalogPage/catalog.html.twig',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];

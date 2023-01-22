@@ -1,0 +1,94 @@
+Product ID,"Image URLs (x,y,z...)",Name *,Kategoria,index #,Price tax excluded,Price tax included,Quantity,Active (0/1)
+1,http://localhost/img/p/Kamil Lanek - EXTRAVAGANZA (standard).jpg,Kamil Lanek - EXTRAVAGANZA (standard),muzyka,demo_1,"44,99 z³","44,99 z³",717,1
+2,http://localhost/img/p/Jan-rapowanie - BUFOR (standard).jpg,Jan-rapowanie - BUFOR (standard),muzyka,demo_2,"44,99 z³","44,99 z³",393,1
+3,http://localhost/img/p/Kacperczyk - Kryzys Wieku Wczesnego.jpg,Kacperczyk - Kryzys Wieku Wczesnego,muzyka,demo_3,"179,99 z³","179,99 z³",396,1
+4,http://localhost/img/p/WALCZUK BOX.jpg,WALCZUK BOX,muzyka,demo_4,"129,99 z³","129,99 z³",708,1
+5,http://localhost/img/p/Janusz Walczuk - Jan Walczuk (deluxe) .jpg,Janusz Walczuk - Jan Walczuk (deluxe) ,muzyka,demo_5,"49,99 z³","49,99 z³",765,1
+6,http://localhost/img/p/Beteo - ''Palma na blokach'' (deluxe).jpg,Beteo - ''Palma na blokach'' (deluxe),muzyka,demo_6,"59,99 z³","59,99 z³",292,1
+7,http://localhost/img/p/Mata - M³ody Matczak (2LP Deluxe).jpg,Mata - M³ody Matczak (2LP Deluxe),muzyka,demo_7,"179,99 z³","179,99 z³",609,1
+8,http://localhost/img/p/White 2115 - Pretty Boy (standard).jpg,White 2115 - Pretty Boy (standard),muzyka,demo_8,"44,99 z³","44,99 z³",379,1
+9,http://localhost/img/p/Kinny Zimmer - ''LETNISKO'' (standard).jpg,Kinny Zimmer - ''LETNISKO'' (standard),muzyka,demo_9,"44,99 z³","44,99 z³",911,1
+10,http://localhost/img/p/Bedoes & Lanek - Rewolucja Romantyczna (2LP).jpg,Bedoes & Lanek - Rewolucja Romantyczna (2LP),muzyka,demo_10,"119,99 z³","119,99 z³",392,1
+11,http://localhost/img/p/Fukaj & Kubi Producent - Chaos (standard).jpg,Fukaj & Kubi Producent - Chaos (standard),muzyka,demo_11,"44,99 z³","44,99 z³",437,1
+12,http://localhost/img/p/Kacperczyk - Kryzys Wieku Wczesnego (standard).jpg,Kacperczyk - Kryzys Wieku Wczesnego (standard),muzyka,demo_12,"44,99 z³","44,99 z³",133,1
+13,http://localhost/img/p/SB Maffija - Hotel Maffija 2 (wersja standard).jpg,SB Maffija - Hotel Maffija 2 (wersja standard),muzyka,demo_13,"44,99 z³","44,99 z³",995,1
+14,http://localhost/img/p/Bedoes & Lanek - Rewolucja Romantyczna (standard).jpg,Bedoes & Lanek - Rewolucja Romantyczna (standard),muzyka,demo_14,"44,99 z³","44,99 z³",915,1
+15,http://localhost/img/p/Adi Nowak - Ognisko Niedomowe (Standard).jpg,Adi Nowak - Ognisko Niedomowe (Standard),muzyka,demo_15,"44,99 z³","44,99 z³",940,1
+16,http://localhost/img/p/Adi Nowak - Vafle Ry¿owe.jpg,Adi Nowak - Vafle Ry¿owe,muzyka,demo_16,"34,99 z³","34,99 z³",114,1
+17,http://localhost/img/p/ADM - Hellboy - CD.jpg,ADM - Hellboy - CD,muzyka,demo_17,"29,99 z³","29,99 z³",878,1
+18,http://localhost/img/p/Bedoes & Kubi Producent - Aby œmieræ mia³a znaczenie (Reedycja).jpg,Bedoes & Kubi Producent - Aby œmieræ mia³a znaczenie (Reedycja),muzyka,demo_18,"44,99 z³","44,99 z³",798,1
+19,http://localhost/img/p/Bedoes & Kubi Producent - Kwiat polskiej m³odzie¿y.jpg,Bedoes & Kubi Producent - Kwiat polskiej m³odzie¿y,muzyka,demo_19,"44,99 z³","44,99 z³",201,1
+20,http://localhost/img/p/Bedoes & Lanek - Opowieœci z doliny smoków (Standard).jpg,Bedoes & Lanek - Opowieœci z doliny smoków (Standard),muzyka,demo_20,"44,99 z³","44,99 z³",784,1
+21,http://localhost/img/p/Beteo - Hoodie.jpg,Beteo - Hoodie,muzyka,demo_21,"44,99 z³","44,99 z³",109,1
+22,http://localhost/img/p/Beteo - Nowy Pop.jpg,Beteo - Nowy Pop,muzyka,demo_22,"44,99 z³","44,99 z³",870,1
+23,http://localhost/img/p/Bia³as - H8M4.jpg,Bia³as - H8M4,muzyka,demo_23,"34,99 z³","34,99 z³",319,1
+24,http://localhost/img/p/Bia³as - H8M5 (standard).jpg,Bia³as - H8M5 (standard),muzyka,demo_24,"44,99 z³","44,99 z³",591,1
+25,http://localhost/img/p/Bia³as – REHAB.jpg,Bia³as – REHAB,muzyka,demo_25,"35,99 z³","35,99 z³",409,1
+26,http://localhost/img/p/Bia³as & Lanek - HYPER2000 (standard).jpg,Bia³as & Lanek - HYPER2000 (standard),muzyka,demo_26,"34,99 z³","34,99 z³",587,1
+27,http://localhost/img/p/BIA£AS & LANEK - POLON (standard).jpg,BIA£AS & LANEK - POLON (standard),muzyka,demo_27,"34,99 z³","34,99 z³",750,1
+28,http://localhost/img/p/BonsonMatek – O nas siê nie martw.jpg,Bonson/Matek – O nas siê nie martw,muzyka,demo_28,"44,99 z³","44,99 z³",648,1
+29,http://localhost/img/p/Eldo - 27 (reedycja).jpg,Eldo - 27 (reedycja),muzyka,demo_29,"29,99 z³","29,99 z³",882,1
+30,http://localhost/img/p/Flexxip - Fach.jpg,Flexxip - Fach,muzyka,demo_30,"34,99 z³","34,99 z³",85,1
+31,http://localhost/img/p/Flirtini - Heartbreaks & Promises Vol. 3.jpg,Flirtini - Heartbreaks & Promises Vol. 3,muzyka,demo_31,"44,99 z³","44,99 z³",827,1
+32,http://localhost/img/p/Guzior - Evil Twin.jpg,Guzior - Evil Twin,muzyka,demo_32,"34,99 z³","34,99 z³",205,1
+33,http://localhost/img/p/HOLAK - Do¿y³em 25 lat i nie bêdê nic zmienia³.jpg,HOLAK - Do¿y³em 25 lat i nie bêdê nic zmienia³,muzyka,demo_33,"44,99 z³","44,99 z³",912,1
+34,http://localhost/img/p/Holak - The Introvert.jpg,Holak - The Introvert,muzyka,demo_34,"44,99 z³","44,99 z³",503,1
+35,http://localhost/img/p/Jan-rapowanie & Nocny - Plansze (Wersja Standard).jpg,Jan-rapowanie & Nocny - Plansze (Wersja Standard),muzyka,demo_35,"44,99 z³","44,99 z³",38,1
+36,http://localhost/img/p/Jan-rapowanie & Nocny - Uœmiech (wersja Standard).jpg,Jan-rapowanie & Nocny - Uœmiech (wersja Standard),muzyka,demo_36,"44,99 z³","44,99 z³",186,1
+37,http://localhost/img/p/Janusz Walczuk - Janusz Walczuk (standard).jpg,Janusz Walczuk - Janusz Walczuk (standard),muzyka,demo_37,"44,99 z³","44,99 z³",742,1
+38,http://localhost/img/p/Kacperczyk - Sztuki Piêkne (standard).jpg,Kacperczyk - Sztuki Piêkne (standard),muzyka,demo_38,"44,99 z³","44,99 z³",870,1
+39,http://localhost/img/p/Kamil Pivot - Tato Hemingway.jpg,Kamil Pivot - Tato Hemingway,muzyka,demo_39,"29,99 z³","29,99 z³",66,1
+40,http://localhost/img/p/Kêkê - Nowe Rzeczy.jpg,Kêkê - Nowe Rzeczy,muzyka,demo_40,"34,99 z³","34,99 z³",196,1
+41,http://localhost/img/p/Kêkê - Takie Rzeczy.jpg,Kêkê - Takie Rzeczy,muzyka,demo_41,"34,99 z³","34,99 z³",941,1
+42,http://localhost/img/p/Kêkê – Mr. Kêkê.jpg,Kêkê – Mr. Kêkê,muzyka,demo_42,"44,99 z³","44,99 z³",677,1
+43,http://localhost/img/p/Kêkê – To tu.jpg,Kêkê – To tu,muzyka,demo_43,"44,99 z³","44,99 z³",957,1
+44,http://localhost/img/p/Kêkê – Trzecie Rzeczy.jpg,Kêkê – Trzecie Rzeczy,muzyka,demo_44,"44,99 z³","44,99 z³",848,1
+45,http://localhost/img/p/Kuba Knap - Knurion.jpg,Kuba Knap - Knurion,muzyka,demo_45,"44,99 z³","44,99 z³",435,1
+46,http://localhost/img/p/Kuba Knap - Ludzie mówi¹ ró¿ne rzeczy.jpg,Kuba Knap - Ludzie mówi¹ ró¿ne rzeczy,muzyka,demo_46,"34,99 z³","34,99 z³",557,1
+47,http://localhost/img/p/Ma³pa - Blur.jpg,Ma³pa - Blur,muzyka,demo_47,"44,99 z³","44,99 z³",576,1
+48,http://localhost/img/p/Ma³pa - Mówi.jpg,Ma³pa - Mówi,muzyka,demo_48,"34,99 z³","34,99 z³",832,1
+49,http://localhost/img/p/Mata - 100 dni do matury.jpg,Mata - 100 dni do matury,muzyka,demo_49,"44,99 z³","44,99 z³",138,1
+50,http://localhost/img/p/Mata - M³ody Matczak (standard).jpg,Mata - M³ody Matczak (standard),muzyka,demo_50,"44,99 z³","44,99 z³",139,1
+51,http://localhost/img/p/Moli - Jak spada³y gwiazdy (standard).jpg,Moli - Jak spada³y gwiazdy (standard),muzyka,demo_51,"44,99 z³","44,99 z³",300,1
+52,http://localhost/img/p/Neile - Kicktape 2.0.jpg,Neile - Kicktape 2.0,muzyka,demo_52,"29,99 z³","29,99 z³",381,1
+53,http://localhost/img/p/O.S.T.R. - 7.jpg,O.S.T.R. - 7,muzyka,demo_53,"34,99 z³","34,99 z³",460,1
+54,http://localhost/img/p/O.S.T.R. - Jazz w wolnych chwilach 2CD.jpg,O.S.T.R. - Jazz w wolnych chwilach 2CD,muzyka,demo_54,"44,99 z³","44,99 z³",390,1
+55,http://localhost/img/p/O.S.T.R. - Jazzurekcja.jpg,O.S.T.R. - Jazzurekcja,muzyka,demo_55,"34,99 z³","34,99 z³",553,1
+56,http://localhost/img/p/O.S.T.R. - Masz to jak w banku.jpg,O.S.T.R. - Masz to jak w banku,muzyka,demo_56,"34,99 z³","34,99 z³",72,1
+57,http://localhost/img/p/O.S.T.R. - Tabasko.jpg,O.S.T.R. - Tabasko,muzyka,demo_57,"34,99 z³","34,99 z³",174,1
+58,http://localhost/img/p/Paluch - 1029.jpg,Paluch - 10/29,muzyka,demo_58,"29,99 z³","29,99 z³",843,1
+59,http://localhost/img/p/Paluch - Z³ota Owca.jpg,Paluch - Z³ota Owca,muzyka,demo_59,"34,99 z³","34,99 z³",835,1
+60,http://localhost/img/p/Pezet - Muzyka rozrywkowa (2CD).jpg,Pezet - Muzyka rozrywkowa (2CD),muzyka,demo_60,"44,99 z³","44,99 z³",25,1
+61,http://localhost/img/p/PezetNoon - Muzyka Powa¿na.jpg,Pezet/Noon - Muzyka Powa¿na,muzyka,demo_61,"34,99 z³","34,99 z³",886,1
+62,http://localhost/img/p/PlanBe - Insomnia.jpg,PlanBe - Insomnia,muzyka,demo_62,"36,99 z³","36,99 z³",539,1
+63,http://localhost/img/p/Quebonafide - Egzotyka (wersja standard 1 CD).jpg,Quebonafide - Egzotyka (wersja standard 1 CD),muzyka,demo_63,"44,99 z³","44,99 z³",456,1
+64,http://localhost/img/p/Quebonafide - Romantic Psycho (wersja EU).jpg,Quebonafide - Romantic Psycho (wersja EU),muzyka,demo_64,"44,99 z³","44,99 z³",976,1
+65,http://localhost/img/p/Quebonafide i QueQuality – Hip-Hop 2.0.jpg,Quebonafide i QueQuality – Hip-Hop 2.0,muzyka,demo_65,"36,99 z³","36,99 z³",240,1
+66,http://localhost/img/p/Rasmentalism - 1985.jpg,Rasmentalism - 1985,muzyka,demo_66,"34,99 z³","34,99 z³",945,1
+67,http://localhost/img/p/Rasmentalism - Tango.jpg,Rasmentalism - Tango,muzyka,demo_67,"39,99 z³","39,99 z³",336,1
+68,http://localhost/img/p/Rasmentalism - Wyszli coœ zjeœæ.jpg,Rasmentalism - Wyszli coœ zjeœæ,muzyka,demo_68,"34,99 z³","34,99 z³",737,1
+69,http://localhost/img/p/SB Maffija - Hotel Maffija (wersja standard).jpg,SB Maffija - Hotel Maffija (wersja standard),muzyka,demo_69,"44,99 z³","44,99 z³",955,1
+70,http://localhost/img/p/Sobota – Gor¹czka sobotniej nocy.jpg,Sobota – Gor¹czka sobotniej nocy,muzyka,demo_70,"34,99 z³","34,99 z³",924,1
+71,http://localhost/img/p/Sobota – Sobota.jpg,Sobota – Sobota,muzyka,demo_71,"34,99 z³","34,99 z³",123,1
+72,http://localhost/img/p/Sobota – Sobota¿.jpg,Sobota – Sobota¿,muzyka,demo_72,"34,99 z³","34,99 z³",321,1
+73,http://localhost/img/p/Sokó³ - Wojtek Sokó³.jpg,Sokó³ - Wojtek Sokó³,muzyka,demo_73,"44,99 z³","44,99 z³",323,1
+74,http://localhost/img/p/solar - klub 27 (prod. deemz).jpg,solar - klub 27 (prod. deemz),muzyka,demo_74,"34,99 z³","34,99 z³",611,1
+75,http://localhost/img/p/Solar - Pokój Zero.jpg,Solar - Pokój Zero,muzyka,demo_75,"44,99 z³","44,99 z³",414,1
+76,http://localhost/img/p/SolarBia³as -  nowanormalnosc (wersja 1CD).jpg,Solar/Bia³as -  nowanormalnosc (wersja 1CD),muzyka,demo_76,"34,99 z³","34,99 z³",105,1
+77,http://localhost/img/p/T-shirt Adi Nowak - Nienajseksowniejsze EP Black.jpg,T-shirt Adi Nowak - Nienajseksowniejsze EP Black,muzyka,demo_77,"89,99 z³","89,99 z³",978,1
+78,http://localhost/img/p/T-shirt Moli Moon White.jpg,T-shirt Moli Moon White,muzyka,demo_78,"99,99 z³","99,99 z³",508,1
+79,http://localhost/img/p/Taco Hemingway - Marmur.jpg,Taco Hemingway - Marmur,muzyka,demo_79,"44,99 z³","44,99 z³",289,1
+80,"http://localhost/img/p/Taco Hemingway - Pocztówka z WWA, Lato '19.jpg","Taco Hemingway - Pocztówka z WWA, Lato '19",muzyka,demo_80,"49,99 z³","49,99 z³",695,1
+81,http://localhost/img/p/Taco Hemingway - Szprycer.jpg,Taco Hemingway - Szprycer,muzyka,demo_81,"44,99 z³","44,99 z³",210,1
+82,http://localhost/img/p/Taco Hemingway - Umowa o dzie³o.jpg,Taco Hemingway - Umowa o dzie³o,muzyka,demo_82,"35,00 z³","35,00 z³",930,1
+83,http://localhost/img/p/Taco Hemingway - WOSK.jpg,Taco Hemingway - WOSK,muzyka,demo_83,"34,99 z³","34,99 z³",529,1
+84,http://localhost/img/p/Ten Typ Mes - Alkopoligamia: Zapiski Typa (2CD).jpg,Ten Typ Mes - Alkopoligamia: Zapiski Typa (2CD),muzyka,demo_84,"34,99 z³","34,99 z³",530,1
+85,http://localhost/img/p/Ten Typ Mes - A³a.jpg,Ten Typ Mes - A³a,muzyka,demo_85,"44,99 z³","44,99 z³",570,1
+86,http://localhost/img/p/Ten Typ Mes - Rapersampler.jpg,Ten Typ Mes - Rapersampler,muzyka,demo_86,"44,99 z³","44,99 z³",880,1
+87,http://localhost/img/p/Ten Typ Mes - Zamach na przeciêtnoœæ.jpg,Ten Typ Mes - Zamach na przeciêtnoœæ,muzyka,demo_87,"34,99 z³","34,99 z³",560,1
+88,http://localhost/img/p/VNM - Klaud N9jn.jpg,VNM - Klaud N9jn,muzyka,demo_88,"29,99 z³","29,99 z³",284,1
+89,http://localhost/img/p/VNM - Propejn.jpg,VNM - Propejn,muzyka,demo_89,"29,99 z³","29,99 z³",561,1
+90,http://localhost/img/p/Wac Toja - High Quality (Reedycja).jpg,Wac Toja - High Quality (Reedycja),muzyka,demo_90,"34,99 z³","34,99 z³",561,1
+91,http://localhost/img/p/White 2115 - M³ody Ksi¹¿ê.jpg,White 2115 - M³ody Ksi¹¿ê,muzyka,demo_91,"44,99 z³","44,99 z³",221,1
+92,http://localhost/img/p/White 2115 - Rockstar.jpg,White 2115 - Rockstar,muzyka,demo_92,"34,99 z³","34,99 z³",968,1
+93,http://localhost/img/p/Wiatr - MATI WIATR .jpg,Wiatr - MATI WIATR ,muzyka,demo_93,"29,99 z³","29,99 z³",118,1

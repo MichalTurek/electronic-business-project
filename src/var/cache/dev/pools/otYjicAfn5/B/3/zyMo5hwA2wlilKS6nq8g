@@ -1,0 +1,3 @@
+<?php //SplFileInfo%2523getMTime
+
+return [PHP_INT_MAX, []];

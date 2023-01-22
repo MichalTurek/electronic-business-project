@@ -1,0 +1,19 @@
+<?php //PrestaShopBundle%255CController%255CAdmin%255CAttributeController%2523attributesGeneratorAction
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['PrestaShopBundle\\Security\\Annotation\\AdminSecurity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('PrestaShopBundle\\Security\\Annotation\\AdminSecurity')),
+    ],
+    null,
+    [
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Security' => [
+            'expression' => [
+                'is_granted(\'create\', request.get(\'_legacy_controller\')) && is_granted(\'update\', request.get(\'_legacy_controller\'))',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

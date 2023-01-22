@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Witaj {firstname} {lastname},
+
+Nowe zamówienie zostało wygenerowane w Twoim imieniu.
+
+Wejdź na {order_link}, aby dokończyć płatność.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

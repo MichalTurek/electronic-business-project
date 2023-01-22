@@ -1,0 +1,26 @@
+<?php //PrestaShopBundle%255CController%255CAdmin%255CSell%255COrder%255CInvoicesController%2523indexAction
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template')),
+        clone ($p['PrestaShopBundle\\Security\\Annotation\\AdminSecurity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('PrestaShopBundle\\Security\\Annotation\\AdminSecurity')),
+    ],
+    null,
+    [
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template' => [
+            'template' => [
+                '@PrestaShop/Admin/Sell/Order/Invoices/invoices.html.twig',
+            ],
+        ],
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Security' => [
+            'expression' => [
+                1 => 'is_granted(\'read\', request.get(\'_legacy_controller\'))',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];

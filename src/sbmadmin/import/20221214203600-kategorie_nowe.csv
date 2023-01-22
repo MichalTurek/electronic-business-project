@@ -1,0 +1,4 @@
+Category ID;Active (0/1);Name *;Parent category;Root category (0/1);Description;Meta title;Meta keywords;Meta description;URL rewritten;Image URL
+5;1;muzyka;Home;0;muzyka twoich ulubionych wykonawców;Meta title-muzyka;Meta keywords-muzyka;Meta description-muzyka;muzyka;http://yourlinktotheimage.com/img1000.jpg
+6;1;ubrania;Home;0;ubrania związane z twoimi ulubionymi wykonawcami;Meta title-ubrania;Meta keywords-ubrania;Meta description-ubrania;ubrania;http://yourlinktotheimage.com/img1001.jpg
+7;1;akcesoria;Home;0;akcesoria od twoich ulubionych wykonawców;Meta title-akcesoria;Meta keywords-akcesoria;Meta description-Laptops;akcesoria;http://yourlinktotheimage.com/img1002.jpg

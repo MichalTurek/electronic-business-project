@@ -1,0 +1,36 @@
+p {
+color: black;
+}
+
+body {
+color:black;
+background-color: black;
+}
+
+#header, #header .header-top {
+    background-color: black;
+    color: white;
+}
+
+#wrapper {
+    padding-top: 1.563rem;
+    background: white;
+}
+
+.breadcrumb li:last-child {
+color: black;
+} 
+#header a {
+    color: #7a7a7a;
+}
+
+#header .header-nav {
+border-bottom-width: 0px;
+}
+.h3 {
+    color: #7a7a7a;
+}
+#block_myaccount_infos .myaccount-title a, .block-contact .block-contact-title {
+color: #7a7a7a;
+}
+

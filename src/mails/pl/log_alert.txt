@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Witaj,
+
+Nowa wiadomość ostrzegawcza została zapisana
+
+Uwaga: otrzymałeś nowy alert w logach w panelu administracyjnym.
+
+Możesz to sprawdzić w sekcji Zaawansowane > Logi swojego panelu administracyjnego.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CHttpFoundation%255CFile%255CUploadedFile%2523isValid
+
+return [PHP_INT_MAX, []];

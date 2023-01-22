@@ -1,0 +1,3 @@
+<?php //SplFileInfo%2523getSize
+
+return [PHP_INT_MAX, []];

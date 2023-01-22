@@ -1,0 +1,1 @@
+*ERROR* 	v8.0.0	2023/01/22 - 17:23:58: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist at line 150 in file classes/db/DbPDO.php

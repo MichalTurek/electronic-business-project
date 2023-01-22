@@ -1,0 +1,34 @@
+<?php //PrestaShopBundle%255CController%255CAdmin%255CSell%255CCatalog%255CCategoryController%2523deleteAction
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['PrestaShopBundle\\Security\\Annotation\\AdminSecurity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('PrestaShopBundle\\Security\\Annotation\\AdminSecurity')),
+        clone ($p['PrestaShopBundle\\Security\\Annotation\\DemoRestricted'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('PrestaShopBundle\\Security\\Annotation\\DemoRestricted')),
+    ],
+    null,
+    [
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Security' => [
+            'expression' => [
+                'is_granted(\'delete\', request.get(\'_legacy_controller\'))',
+            ],
+            'message' => [
+                'You do not have permission to delete this.',
+            ],
+        ],
+        'PrestaShopBundle\\Security\\Annotation\\AdminSecurity' => [
+            'redirectRoute' => [
+                'admin_categories_index',
+            ],
+        ],
+        'PrestaShopBundle\\Security\\Annotation\\DemoRestricted' => [
+            'redirectRoute' => [
+                1 => 'admin_categories_index',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];

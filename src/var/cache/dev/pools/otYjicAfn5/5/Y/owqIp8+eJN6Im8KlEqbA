@@ -1,0 +1,3 @@
+<?php //SplFileInfo%2523isLink
+
+return [PHP_INT_MAX, []];

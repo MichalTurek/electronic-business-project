@@ -1,0 +1,3 @@
+<?php //SplFileInfo%2523isWritable
+
+return [PHP_INT_MAX, []];

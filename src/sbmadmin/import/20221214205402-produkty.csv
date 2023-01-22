@@ -1,0 +1,64 @@
+Product ID,"Image URLs (x,y,z...)",Name *,Kategoria,index #,Price tax excluded,Price tax included,Quantity,Active (0/1)
+1,http://localhost/img/p/Kamil Lanek - EXTRAVAGANZA (standard).jpg,Kamil Lanek - EXTRAVAGANZA (standard),muzyka,demo_1,"44,99 zł","44,99 zł",175,1
+2,http://localhost/img/p/Jan-rapowanie - BUFOR (standard).jpg,Jan-rapowanie - BUFOR (standard),muzyka,demo_2,"44,99 zł","44,99 zł",290,1
+3,http://localhost/img/p/Kacperczyk - Kryzys Wieku Wczesnego.jpg,Kacperczyk - Kryzys Wieku Wczesnego,muzyka,demo_3,"179,99 zł","179,99 zł",919,1
+4,http://localhost/img/p/WALCZUK BOX.jpg,WALCZUK BOX,muzyka,demo_4,"129,99 zł","129,99 zł",74,1
+5,http://localhost/img/p/Janusz Walczuk - Jan Walczuk (deluxe) .jpg,Janusz Walczuk - Jan Walczuk (deluxe) ,muzyka,demo_5,"49,99 zł","49,99 zł",699,1
+6,http://localhost/img/p/Beteo - ''Palma na blokach'' (deluxe).jpg,Beteo - ''Palma na blokach'' (deluxe),muzyka,demo_6,"59,99 zł","59,99 zł",342,1
+7,http://localhost/img/p/Mata - Młody Matczak (2LP Deluxe).jpg,Mata - Młody Matczak (2LP Deluxe),muzyka,demo_7,"179,99 zł","179,99 zł",242,1
+8,http://localhost/img/p/White 2115 - Pretty Boy (standard).jpg,White 2115 - Pretty Boy (standard),muzyka,demo_8,"44,99 zł","44,99 zł",940,1
+9,http://localhost/img/p/Kinny Zimmer - ''LETNISKO'' (standard).jpg,Kinny Zimmer - ''LETNISKO'' (standard),muzyka,demo_9,"44,99 zł","44,99 zł",520,1
+10,http://localhost/img/p/Bedoes & Lanek - Rewolucja Romantyczna (2LP).jpg,Bedoes & Lanek - Rewolucja Romantyczna (2LP),muzyka,demo_10,"119,99 zł","119,99 zł",586,1
+11,http://localhost/img/p/Fukaj & Kubi Producent - Chaos (standard).jpg,Fukaj & Kubi Producent - Chaos (standard),muzyka,demo_11,"44,99 zł","44,99 zł",973,1
+12,http://localhost/img/p/Kacperczyk - Kryzys Wieku Wczesnego (standard).jpg,Kacperczyk - Kryzys Wieku Wczesnego (standard),muzyka,demo_12,"44,99 zł","44,99 zł",655,1
+13,http://localhost/img/p/SB Maffija - Hotel Maffija 2 (wersja standard).jpg,SB Maffija - Hotel Maffija 2 (wersja standard),muzyka,demo_13,"44,99 zł","44,99 zł",921,1
+14,http://localhost/img/p/Bedoes & Lanek - Rewolucja Romantyczna (standard).jpg,Bedoes & Lanek - Rewolucja Romantyczna (standard),muzyka,demo_14,"44,99 zł","44,99 zł",695,1
+15,http://localhost/img/p/Adi Nowak - Ognisko Niedomowe (Standard).jpg,Adi Nowak - Ognisko Niedomowe (Standard),muzyka,demo_15,"44,99 zł","44,99 zł",905,1
+16,http://localhost/img/p/Adi Nowak - Vafle Ryżowe.jpg,Adi Nowak - Vafle Ryżowe,muzyka,demo_16,"34,99 zł","34,99 zł",161,1
+17,http://localhost/img/p/ADM - Hellboy - CD.jpg,ADM - Hellboy - CD,muzyka,demo_17,"29,99 zł","29,99 zł",980,1
+18,http://localhost/img/p/Bedoes & Kubi Producent - Aby śmierć miała znaczenie (Reedycja).jpg,Bedoes & Kubi Producent - Aby śmierć miała znaczenie (Reedycja),muzyka,demo_18,"44,99 zł","44,99 zł",224,1
+19,http://localhost/img/p/Bedoes & Kubi Producent - Kwiat polskiej młodzieży.jpg,Bedoes & Kubi Producent - Kwiat polskiej młodzieży,muzyka,demo_19,"44,99 zł","44,99 zł",825,1
+20,http://localhost/img/p/Bedoes & Lanek - Opowieści z doliny smoków (Standard).jpg,Bedoes & Lanek - Opowieści z doliny smoków (Standard),muzyka,demo_20,"44,99 zł","44,99 zł",355,1
+21,http://localhost/img/p/Beteo - Hoodie.jpg,Beteo - Hoodie,muzyka,demo_21,"44,99 zł","44,99 zł",127,1
+22,http://localhost/img/p/Beteo - Nowy Pop.jpg,Beteo - Nowy Pop,muzyka,demo_22,"44,99 zł","44,99 zł",832,1
+23,http://localhost/img/p/Białas - H8M4.jpg,Białas - H8M4,muzyka,demo_23,"34,99 zł","34,99 zł",524,1
+24,http://localhost/img/p/Białas - H8M5 (standard).jpg,Białas - H8M5 (standard),muzyka,demo_24,"44,99 zł","44,99 zł",509,1
+25,http://localhost/img/p/Białas – REHAB.jpg,Białas – REHAB,muzyka,demo_25,"35,99 zł","35,99 zł",288,1
+26,http://localhost/img/p/Białas & Lanek - HYPER2000 (standard).jpg,Białas & Lanek - HYPER2000 (standard),muzyka,demo_26,"34,99 zł","34,99 zł",213,1
+27,http://localhost/img/p/BIAŁAS & LANEK - POLON (standard).jpg,BIAŁAS & LANEK - POLON (standard),muzyka,demo_27,"34,99 zł","34,99 zł",969,1
+28,http://localhost/img/p/BonsonMatek – O nas się nie martw.jpg,Bonson/Matek – O nas się nie martw,muzyka,demo_28,"44,99 zł","44,99 zł",246,1
+29,http://localhost/img/p/Eldo - 27 (reedycja).jpg,Eldo - 27 (reedycja),muzyka,demo_29,"29,99 zł","29,99 zł",51,1
+30,http://localhost/img/p/Flexxip - Fach.jpg,Flexxip - Fach,muzyka,demo_30,"34,99 zł","34,99 zł",365,1
+31,http://localhost/img/p/Flirtini - Heartbreaks & Promises Vol. 3.jpg,Flirtini - Heartbreaks & Promises Vol. 3,muzyka,demo_31,"44,99 zł","44,99 zł",170,1
+32,http://localhost/img/p/Guzior - Evil Twin.jpg,Guzior - Evil Twin,muzyka,demo_32,"34,99 zł","34,99 zł",118,1
+33,http://localhost/img/p/HOLAK - Dożyłem 25 lat i nie będę nic zmieniał.jpg,HOLAK - Dożyłem 25 lat i nie będę nic zmieniał,muzyka,demo_33,"44,99 zł","44,99 zł",450,1
+34,http://localhost/img/p/Holak - The Introvert.jpg,Holak - The Introvert,muzyka,demo_34,"44,99 zł","44,99 zł",275,1
+35,http://localhost/img/p/Jan-rapowanie & Nocny - Plansze (Wersja Standard).jpg,Jan-rapowanie & Nocny - Plansze (Wersja Standard),muzyka,demo_35,"44,99 zł","44,99 zł",545,1
+36,http://localhost/img/p/Jan-rapowanie & Nocny - Uśmiech (wersja Standard).jpg,Jan-rapowanie & Nocny - Uśmiech (wersja Standard),muzyka,demo_36,"44,99 zł","44,99 zł",727,1
+37,http://localhost/img/p/Janusz Walczuk - Janusz Walczuk (standard).jpg,Janusz Walczuk - Janusz Walczuk (standard),muzyka,demo_37,"44,99 zł","44,99 zł",888,1
+38,http://localhost/img/p/Kacperczyk - Sztuki Piękne (standard).jpg,Kacperczyk - Sztuki Piękne (standard),muzyka,demo_38,"44,99 zł","44,99 zł",360,1
+39,http://localhost/img/p/Kamil Pivot - Tato Hemingway.jpg,Kamil Pivot - Tato Hemingway,muzyka,demo_39,"29,99 zł","29,99 zł",826,1
+40,http://localhost/img/p/Kękę - Nowe Rzeczy.jpg,Kękę - Nowe Rzeczy,muzyka,demo_40,"34,99 zł","34,99 zł",430,1
+41,http://localhost/img/p/Kękę - Takie Rzeczy.jpg,Kękę - Takie Rzeczy,muzyka,demo_41,"34,99 zł","34,99 zł",885,1
+42,http://localhost/img/p/Kękę – Mr. Kękę.jpg,Kękę – Mr. Kękę,muzyka,demo_42,"44,99 zł","44,99 zł",974,1
+43,http://localhost/img/p/Kękę – To tu.jpg,Kękę – To tu,muzyka,demo_43,"44,99 zł","44,99 zł",817,1
+44,http://localhost/img/p/Kękę – Trzecie Rzeczy.jpg,Kękę – Trzecie Rzeczy,muzyka,demo_44,"44,99 zł","44,99 zł",131,1
+45,http://localhost/img/p/Kuba Knap - Knurion.jpg,Kuba Knap - Knurion,muzyka,demo_45,"44,99 zł","44,99 zł",619,1
+46,http://localhost/img/p/Kuba Knap - Ludzie mówią różne rzeczy.jpg,Kuba Knap - Ludzie mówią różne rzeczy,muzyka,demo_46,"34,99 zł","34,99 zł",298,1
+47,http://localhost/img/p/Małpa - Blur.jpg,Małpa - Blur,muzyka,demo_47,"44,99 zł","44,99 zł",771,1
+48,http://localhost/img/p/Małpa - Mówi.jpg,Małpa - Mówi,muzyka,demo_48,"34,99 zł","34,99 zł",41,1
+49,http://localhost/img/p/Mata - 100 dni do matury.jpg,Mata - 100 dni do matury,muzyka,demo_49,"44,99 zł","44,99 zł",826,1
+50,http://localhost/img/p/Mata - Młody Matczak (standard).jpg,Mata - Młody Matczak (standard),muzyka,demo_50,"44,99 zł","44,99 zł",449,1
+51,http://localhost/img/p/Moli - Jak spadały gwiazdy (standard).jpg,Moli - Jak spadały gwiazdy (standard),muzyka,demo_51,"44,99 zł","44,99 zł",987,1
+52,http://localhost/img/p/Neile - Kicktape 2.0.jpg,Neile - Kicktape 2.0,muzyka,demo_52,"29,99 zł","29,99 zł",433,1
+53,http://localhost/img/p/O.S.T.R. - 7.jpg,O.S.T.R. - 7,muzyka,demo_53,"34,99 zł","34,99 zł",400,1
+54,http://localhost/img/p/O.S.T.R. - Jazz w wolnych chwilach 2CD.jpg,O.S.T.R. - Jazz w wolnych chwilach 2CD,muzyka,demo_54,"44,99 zł","44,99 zł",103,1
+55,http://localhost/img/p/O.S.T.R. - Jazzurekcja.jpg,O.S.T.R. - Jazzurekcja,muzyka,demo_55,"34,99 zł","34,99 zł",708,1
+56,http://localhost/img/p/O.S.T.R. - Masz to jak w banku.jpg,O.S.T.R. - Masz to jak w banku,muzyka,demo_56,"34,99 zł","34,99 zł",633,1
+57,http://localhost/img/p/O.S.T.R. - Tabasko.jpg,O.S.T.R. - Tabasko,muzyka,demo_57,"34,99 zł","34,99 zł",834,1
+58,http://localhost/img/p/Paluch - 1029.jpg,Paluch - 10/29,muzyka,demo_58,"29,99 zł","29,99 zł",113,1
+59,http://localhost/img/p/Paluch - Złota Owca.jpg,Paluch - Złota Owca,muzyka,demo_59,"34,99 zł","34,99 zł",542,1
+60,http://localhost/img/p/Pezet - Muzyka rozrywkowa (2CD).jpg,Pezet - Muzyka rozrywkowa (2CD),muzyka,demo_60,"44,99 zł","44,99 zł",332,1
+61,http://localhost/img/p/PezetNoon - Muzyka Poważna.jpg,Pezet/Noon - Muzyka Poważna,muzyka,demo_61,"34,99 zł","34,99 zł",696,1
+62,http://localhost/img/p/PlanBe - Insomnia.jpg,PlanBe - Insomnia,muzyka,demo_62,"36,99 zł","36,99 zł",736,1
+63,http://localhost/img/p/Quebonafide - Egzotyka (wersja standard 1 CD).jpg,Quebonafide - Egzotyka (wersja standard 1 CD),muzyka,demo_63,"44,99 zł","44,99 zł",62,1

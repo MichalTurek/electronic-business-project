@@ -1,0 +1,22 @@
+<?php //PrestaShop%255CModule%255CLinkList%255CController%255CAdmin%255CImprove%255CDesign%255CLinkBlockController
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['PrestaShopBundle\\Security\\Annotation\\ModuleActivated'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('PrestaShopBundle\\Security\\Annotation\\ModuleActivated')),
+    ],
+    null,
+    [
+        'PrestaShopBundle\\Security\\Annotation\\ModuleActivated' => [
+            'redirectRoute' => [
+                'admin_module_manage',
+            ],
+            'moduleName' => [
+                'ps_linklist',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

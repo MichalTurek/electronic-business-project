@@ -1,0 +1,3 @@
+<?php //SplFileInfo%2523_bad_state_ex
+
+return [PHP_INT_MAX, []];
